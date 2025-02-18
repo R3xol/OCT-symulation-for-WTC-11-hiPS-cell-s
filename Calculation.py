@@ -125,6 +125,6 @@ if __name__ == "__main__":
     # Ścieżki do katalogów
     data_directory = '.\Try'
     save_directory = '.\Try'
-    mask_file_path = '.\EW_int_240_60.mat'
+    mask_file_path = 'EW\EW_int_240_60.mat'
     process = MainProcess(data_directory, save_directory, mask_file_path)
     process.run()
