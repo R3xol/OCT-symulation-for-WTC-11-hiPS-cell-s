@@ -52,7 +52,7 @@ class ImageProcessor:
         mask = loadmat(file_path)
         EW_int = mask['EW_int']
         mask_matrix = np.transpose(EW_int, (2, 0, 1))
-        tifffile.imwrite('mask_matrix_small.tiff', mask_matrix)
+        # tifffile.imwrite('mask_matrix_small.tiff', mask_matrix)
         return mask_matrix
 
     # Interpolacja najbliższego sąsiada
